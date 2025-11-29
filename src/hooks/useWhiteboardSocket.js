@@ -10,7 +10,10 @@ export default function useWhiteboardSocket() {
 
   useEffect(() => {
     // Create socket only once
-    socketRef.current = io("http://localhost:8080");
+   socketRef.current = io("https://whiteboard-backend-szwv.onrender.com", {
+  transports: ["websocket"],
+});
+
 
     const socket = socketRef.current;
 
