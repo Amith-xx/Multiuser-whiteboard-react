@@ -15,6 +15,7 @@ export default function useWhiteboardSocket() {
 });
 
 
+
     const socket = socketRef.current;
 
     socket.on("draw", (stroke) => {
