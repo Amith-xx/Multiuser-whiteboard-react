@@ -1,4 +1,4 @@
-# 🚀 Multi-User Collaborative Whiteboard  
+#  Multi-User Collaborative Whiteboard  
 A real-time, multi-user collaborative whiteboard where users can draw, comment, react with emojis, and erase the board — all synchronized instantly across all connected clients.
 
 This project is built using **React + Socket.io + Node.js**, with a fully deployed frontend on **GitHub Pages** and backend hosted on **Render**.
